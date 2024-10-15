@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.menu {
+  padding: 20px 10px 15px 20px;
+  background-color: rgb(92, 82, 82);
+}
+
+.menu a {
+  color: aliceblue;
+  padding-left: 1%;
+  text-decoration: none;
+}
+
+.exit {
+  position: absolute;
+  right: 1%;
+}
+
+.private {
+  position: absolute;
+  right: 5%;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcba1;
+}
+
+.authorisation{
+  text-align: center;
+}
+.authorisation input {
+  border-radius: 7px;
+  min-height: 20px;
+  min-width: 250px;
+}
+
+.btn-submit {
+  border-radius: 7px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: beige;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+.footer {
+  color: aliceblue;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(92, 82, 82);
+  min-width: 100%;
+}
