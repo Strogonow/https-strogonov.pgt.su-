@@ -11,12 +11,12 @@ $username = "strogonov";
 $pass = "Сде250405";
 $dbName = "strogonov";
 */
-/*
+
 $hostname = "localhost";
 $username = "root";
 $pass = "";
 $dbName = "User"; 
-*/
+
 
 $link = mysqli_connect($hostname, $username, $pass, $dbName);//Подключение к способом mysqli
 
